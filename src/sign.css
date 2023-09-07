@@ -1,0 +1,63 @@
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(#58a4d6 , #6DD5FA);
+    padding-top: 60px;
+    padding-bottom: 80px;
+    width: 420px;
+    border-radius: 20px;
+}
+.mainAll{
+    display: flex;
+    justify-content: center;
+}
+.email,.password{
+    width: 280px;
+    padding: 5px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+}
+
+
+
+::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+}
+.btn3{
+    width: 100px;
+    padding: 6px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+}
+.btn3:hover{
+    background-color: rgb(102, 139, 150);
+    width: 100px;
+    padding: 6px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+    font-size: 16px;
+    color: rgb(245, 242, 242);
+    font-weight: 600;
+}
+.hed{
+    color: rgb(248, 249, 250);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+    margin-top: 125px;
+}
