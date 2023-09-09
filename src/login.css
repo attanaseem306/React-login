@@ -4,7 +4,7 @@
     text-align: center;
     align-items: center;
     flex-direction: column;
-    background:linear-gradient(#464949 , #6d7070);
+    background:linear-gradient(#58a4d6 , #6DD5FA);
     padding-top: 60px;
     padding-bottom: 80px;
     width: 420px;
@@ -15,7 +15,8 @@
     justify-content: center;
 }
 .anchor{
-margin-top: 15px;
+
+    margin-top: 15px;
 }
 .email,.password{
     width: 280px;

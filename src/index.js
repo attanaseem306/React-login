@@ -5,6 +5,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SignUp from './sign';
 import Login from './Login';
+import BasicExample from './App';
 
 
 import {
@@ -17,7 +18,7 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <BasicExample/>,
   },
   {
     path: "/Sign",
